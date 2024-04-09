@@ -11,10 +11,12 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
-console.log("\nOpdracht 1: \n");
+console.log(`
+Opdracht 1:
+`);
 
 for (let i = 0; i < 5; i++) {
-    console.log("*".repeat(i + 1));
+    console.log(`*`.repeat(i + 1));
 }
 
 
@@ -28,13 +30,15 @@ for (let i = 0; i < 5; i++) {
 // klaar!
 // ==========================================
 
-console.log("\nOpdracht 2: \n");
+console.log(`
+Opdracht 2:
+`);
 
 for (let i = 0; i < 5; i++) {
     if (i === 4) {
-        console.log("klaar!");
+        console.log(`klaar!`);
     } else {
-        console.log("loop...");
+        console.log(`loop...`);
     }
 }
 
@@ -55,7 +59,9 @@ for (let i = 0; i < 5; i++) {
 // >> 9
 // ==========================================
 
-console.log("\nOpdracht 3: \n");
+console.log(`
+Opdracht 3:
+`);
 
 for (let i = 0; i < 10; i++) {
     if (i < 3) {
@@ -109,15 +115,17 @@ for (let i = 0; i < 10; i++) {
 // etc.
 // ==========================================
 
-console.log("\nOpdracht 4: \n");
+console.log(`
+Opdracht 4:
+`);
 
 for (let i =   1; i < 101; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
+        console.log(`FizzBuzz`);
     } else if (i % 3 === 0) {
-        console.log("Fizz");
+        console.log(`Fizz`);
     } else if (i % 5 === 0) {
-        console.log("Buzz");
+        console.log(`Buzz`);
     } else {
         console.log(i);
     }
